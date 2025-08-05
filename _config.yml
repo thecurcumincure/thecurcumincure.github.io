@@ -5,8 +5,7 @@ description: "Learn about how curcumin aides with gut microbiome health improvem
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+
 
 # Build settings
 markdown: kramdown
