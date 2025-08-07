@@ -459,18 +459,28 @@ body {
   margin: 0.5rem 0;
 }
 
+.arrow-block {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.arrow-block p {
+  margin-bottom: 1rem;
+}
+
 .arrow {
-  width: 80px;
+  width: 60px;
+  height: auto;
   display: block;
-  margin: 1rem auto;
+  margin: 1rem auto 0 auto;
 }
 
 .red-arrow {
-  filter: hue-rotate(0deg);
+  transform: rotate(15deg);
 }
 
 .green-arrow {
-  filter: hue-rotate(100deg);
+  transform: rotate(-15deg);
 }
 
 
