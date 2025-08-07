@@ -350,6 +350,11 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+// section bg colors
+.bg-orange {
+  background-color: #F4AB6A;
+}
+
 // make nav bar bg white
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-brand {
