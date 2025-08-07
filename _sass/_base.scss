@@ -604,3 +604,12 @@ hr {
   font-size: 2rem;
 }
 
+// for front page
+.text-background {
+  background-color: rgba(#FFC78F, 0.5); // Semi-transparent dark background
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  max-width: 800px;
+  margin: 0 auto 1.5rem auto;
+  color: white;
+}
