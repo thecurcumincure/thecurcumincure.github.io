@@ -564,4 +564,42 @@ hr {
   font-size: 0.95rem;
 }
 
+// about the creator
+.about-section {
+  background-color: #fdf6ec;
+  padding: 4rem 2rem;
+  font-family: Georgia, serif;
+  color: #1a1a1a;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.about-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 1.5rem;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
 
