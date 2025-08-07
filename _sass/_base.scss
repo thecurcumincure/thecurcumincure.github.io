@@ -281,6 +281,7 @@ header {
 
 .call-to-action {
     h2 {
+        background-color: #F4AB6A;
         margin: 0 auto 20px;
     }
 }
@@ -349,6 +350,7 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+// make nav bar bg white
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-brand {
   color: #58afdd !important;
@@ -356,6 +358,53 @@ body {
   &:hover {
     color: #8dcfec !important;
   }
+}
+// for cytokine descriptions
+.cytokine-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.cytokine-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-family: Georgia, serif;
+}
+
+.cytokine-card h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.cytokine-card p {
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.cytokine-card ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.cytokine-card.light {
+  background-color: #d6f0d6;
+  color: #002a00;
+}
+
+.cytokine-card.dark {
+  background-color: #134d2a;
+  color: white;
+}
+
+.top-left { border-top-left-radius: 4rem; }
+.top-right { border-top-right-radius: 4rem; }
+.bottom-left { border-bottom-left-radius: 4rem; }
+.bottom-right { border-bottom-right-radius: 4rem; }
+
+.greek {
+  font-style: italic;
 }
 
 
