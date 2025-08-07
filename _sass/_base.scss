@@ -411,5 +411,66 @@ body {
 .greek {
   font-style: italic;
 }
+// gut eubiosis page
+.gut-section {
+  background-color: #1f4d2e;
+  padding: 2rem;
+  color: white;
+  font-family: Georgia, serif;
+}
+
+.gut-header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.gut-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.gut-left,
+.gut-right {
+  width: 48%;
+}
+
+.gut-definition {
+  width: 100%;
+  border: 1px solid white;
+}
+
+.gut-diagram,
+.gut-bacteria {
+  width: 100px;
+  margin: 0.5rem;
+}
+
+.gut-text-section {
+  margin-top: 2rem;
+  position: relative;
+}
+
+.highlight-text {
+  color: #ffe599;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.arrow {
+  width: 80px;
+  display: block;
+  margin: 1rem auto;
+}
+
+.red-arrow {
+  filter: hue-rotate(0deg);
+}
+
+.green-arrow {
+  filter: hue-rotate(100deg);
+}
 
 
