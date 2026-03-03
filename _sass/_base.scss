@@ -564,6 +564,22 @@ hr {
   font-size: 1rem;
 }
 
+.highlight-award {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.highlight-award h3 {
+  font-size: 2rem;
+}
+
+.highlight-award p {
+  font-size: 1.25rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 // about the creator
 .about-section {
   background-color: #fdf6ec;
