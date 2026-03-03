@@ -564,20 +564,34 @@ hr {
   font-size: 1rem;
 }
 
+/* ===== Featured Publication Section ===== */
+
 .highlight-award {
-  grid-column: 1 / -1;
+  grid-column: 1 / -1; 
+  margin: 60px auto;
+  padding: 50px 40px;
+  background: linear-gradient(135deg, #fdf6f0, #f5e6d8);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
   text-align: center;
-  margin-top: 40px;
+  max-width: 1000px;
 }
 
+/* Main title */
 .highlight-award h3 {
-  font-size: 2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
 }
 
+/* Paragraph text */
 .highlight-award p {
-  font-size: 1.25rem;
-  max-width: 900px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  max-width: 850px;
   margin: 0 auto;
+  color: #444;
 }
 
 // about the creator
