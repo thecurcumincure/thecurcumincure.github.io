@@ -594,6 +594,25 @@ hr {
   color: #444;
 }
 
+.publication-link {
+  margin-top: 15px;
+}
+
+.pub-button {
+  display: inline-block;
+  background-color: $theme-primary;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.pub-button:hover {
+  background-color: darken($theme-primary, 8%);
+  transform: translateY(-2px);
+}
 // about the creator
 .about-section {
   background-color: #fdf6ec;
