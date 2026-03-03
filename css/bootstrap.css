@@ -6376,24 +6376,7 @@ button.close {
 .visible-lg-inline-block {
   display: none !important;
 }
-/* Make #7 span entire row */
-.highlight-award {
-  grid-column: 1 / -1;   /* Takes full width of grid */
-  text-align: center;    /* Centers text */
-  margin-top: 40px;      /* Adds spacing above */
-}
 
-/* Make heading bigger */
-.highlight-award h3 {
-  font-size: 2rem;
-}
-
-/* Make paragraph bigger */
-.highlight-award p {
-  font-size: 1.25rem;
-  max-width: 900px;      /* Keeps text readable */
-  margin: 0 auto;        /* Centers paragraph block */
-}
 @media (max-width: 767px) {
   .visible-xs {
     display: block !important;
@@ -6580,5 +6563,23 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+/* Make #7 span entire row */
+.highlight-award {
+  grid-column: 1 / -1;   /* Takes full width of grid */
+  text-align: center;    /* Centers text */
+  margin-top: 40px;      /* Adds spacing above */
+}
+
+/* Make heading bigger */
+.highlight-award h3 {
+  font-size: 2rem;
+}
+
+/* Make paragraph bigger */
+.highlight-award p {
+  font-size: 1.25rem;
+  max-width: 900px;      /* Keeps text readable */
+  margin: 0 auto;        /* Centers paragraph block */
 }
 /*# sourceMappingURL=bootstrap.css.map */
